@@ -1,0 +1,41 @@
+{
+  "name": "web-streams-polyfill",
+  "version": "2.0.0",
+  "description": "Web Streams, based on the WHATWG spec reference implementation",
+  "main": "dist/web-streams-polyfill.js",
+  "browser": "dist/web-streams-polyfill.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "http-server",
+    "watch": "webpack --progress --watch"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/creatorrr/web-stream-polyfill.git"
+  },
+  "keywords": [
+    "streams",
+    "whatwg",
+    "polyfill"
+  ],
+  "author": "Diwank Singh <diwank.singh@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/creatorrr/web-streams-polyfill/issues"
+  },
+  "homepage": "https://github.com/creatorrr/web-streams-polyfill#readme",
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-env": "^1.1.6",
+    "babel-preset-latest": "^6.16.0",
+    "eslint": "^3.13.0",
+    "http-server": "^0.9.0",
+    "webpack": "2.2.0-rc.3"
+  }
+}
